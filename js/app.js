@@ -1,11 +1,13 @@
 // fill about
+document.getElementById("profile_img").src = profile_img;
 document.getElementById("about-txt").innerHTML = about;
+
 
 // fill projects
 projects.forEach(function (row) {
     // Create a new card element
     var card = document.createElement("div");
-    card.classList.add("col-md-4"); // Set the column width for the card
+    card.classList.add("col-lg-4", "d-flex", "align-items-stretch"); // Set the column width for the card
     card.innerHTML = `
           <div class="card">
             <img src="${row.image}" class="card-img-top">

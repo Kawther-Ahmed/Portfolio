@@ -4,7 +4,8 @@
 <head>
     <title>Kawther Ahmed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
@@ -34,17 +35,14 @@
             </div>
         </div>
     </nav>
-    <div class="jumbotron">
+    <div class="bg-g header">
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div class="align-self-center">
-                    <h1>Welcome to my portfolio</h1>
-                    <p>Here you can find information about my work and projects.</p>
+                    <h1 id="welcome">Welcome to my portfolio!</h1>
+                    <p id="intro" class="m-0">Here you can find my dashboards and stories created using Tableau, Power BI, and/or Excel.</p>
                 </div>
-                <div class="pic">
-                    <img class="pic1 border border-primary rounded-circle shadow-4-strong" src="profile.png" />
-                    <img class="pic2 border border-primary rounded-circle shadow-4-strong" src="profile2.jpg" />
-                </div>
+                <img id="profile_img" class="pic border border-primary rounded-circle shadow-4-strong"/>
             </div>
         </div>
     </div>
@@ -53,14 +51,14 @@
     <div class="container">
         <section id="about">
             <div>
-                <h2>About Me</h2>
+                <h2 class="heading">About Me</h2>
                 <p id="about-txt"></p>
             </div>
         </section>
         <section id="projects">
             <div>
-                <h2>My Projects</h2>
-                <p>Here are some of the projects that I have worked on:</p>
+                <h2 class="heading">My Projects</h2>
+                <p>The following are a few examples of projects that I have completed:</p>
                 <div class="container">
                     <div class="row" id="card-row">
                         <!-- Cards will be dynamically inserted here -->
@@ -68,28 +66,38 @@
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <div class="container">
-                <h2 class="section-heading text-center">Contact Me</h2>
-                <div class="contact-details">
-                    <ul class="d-flex justify-content-around">
-                        <li><i class="fas fa-envelope"></i> <a
-                                href="mailto:youremail@example.com">youremail@example.com</a></li>
-                        <li><i class="fa fa-phone"></i> <a href="tel:+1234567890">+123 456 7890</a></li>
-                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/yourlinkedinprofile/"
-                                target="_blank">linkedin.com/in/yourlinkedinprofile/</a></li>
-                    </ul>
+    </div>
+        <section id="contact" class="bg-g text-center">
+            <div class="container ph-5 pb-0 ">
+                <h2 class="mb-5" class="heading">Contact Me</h2>
+                <div class="mb-4 row d-flex justify-content-around ">
+                    <span class="align-self-center">
+                        <a class="btn" href="mailto:kawtherahmed556@gmail.com">
+                            <i class="fas fa-envelope" style="color: #c71610;"></i>
+                            kawtherahmed556@gmail.com
+                        </a>
+                        <a class="btn" href="tel:+201287506616">
+                            <i class="fa fa-phone" style="color: green;"></i>
+                            +20 128 750 6616
+                        </a>
+                    </span>
+                    <span>
+                        <a class="btn text-white m-1 rounded-circle" style="background-color: #0082ca;" href="https://www.linkedin.com/in/kawtherahmed67/" role="button"><i
+                                class="fab fa-linkedin-in"></i></a>
+    
+                        <a class="btn text-white m-1 rounded-circle" style="background-color: #333333;" href="https://github.com/Kawther-Ahmed" role="button"><i
+                                class="fab fa-github"></i></a>
+                    </span>
                 </div>
             </div>
+    
+            <footer class="bg-dark text-white text-center p-3">
+                © 2023 Copyright: Kawther Ahmed
+            </footer>
         </section>
-        <footer class="bg-light py-4">
-            <div class="container">
-                <p>&copy; 2023 Kather Ahmed Saeed. All rights reserved.</p>
-            </div>
-        </footer>
 
-        <script src="data.js"></script>
-        <script src="app.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/app.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
