@@ -41,8 +41,8 @@ html {
 }
 
 .pic {
-    width: 17%;
-    height: 17%;
+    width: calc(50px + 9vw);
+    height: calc(50px + 9vw);
     aspect-ratio: 1/1;
 }
 

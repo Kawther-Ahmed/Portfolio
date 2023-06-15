@@ -4,36 +4,27 @@ const profile_img = imgs_root + "profile_img.jpeg"
 
 const projects = [
     {
-        "title": "AdventureWorks Story",
-        "description": `Story using the AdventureWorks Data Warehouse, presenting an engaging 
-                        narrative through interactive dashboards. The story includes market, currency, 
-                        product, promotion, and customer analysis. To generate accurate insights and forecasts, 
-                        I utilized advanced tools like hierarchies, sets, forecasting, and trend lines, 
-                        and visualized complex data using dynamic zone and percentage of total.`,
+        "title": "AdventureWorks DWH Story",
+        "description": `Story presenting a narrative through interactive dashboards. Includes market, currency, 
+                        product, promotion, and customer analysis with advanced tools.`,
         "tool": "Tableau",
-        "image": imgs_root + "advanture_works_story.PNG",
+        "image": imgs_root + "advanture_works_story_tableau.PNG",
         "date": "June 2023",
         "url": "https://public.tableau.com/app/profile/kawther.ahmed/viz/AdventureWorks_16858995584710/AdventureWorksStory?publish=yes"
     },
     {
         "title": "E-Commerce Dashboard",
-        "description": `In this interactive visualization, I provide insights into 
-                        the e-commerce industry, including sales trends, customer demographics, 
-                        and product categories. I've used various charts and graphs to present 
-                        the data in an engaging and informative way, such as line, bar, and map charts. 
-                        As well as the use of filters and interactivity makes it easy to explore 
-                        trends and patterns.`,
+        "description": `Interactive visualization includes sales trends, customer demographics, 
+                        and product categories. I've used line, bar, and map charts. As well as the use of filters.`,
                         "tool": "Tableau",
-        "image": imgs_root + "e-commerce.PNG",
+        "image": imgs_root + "e-commerce_tableau.PNG",
         "date": "May 2023",
         "url": "https://public.tableau.com/app/profile/kawther.ahmed/viz/E-CommerceData_16849528285550/E-CommerceData?publish=yes"
     },
     {
         "title": "Airlines Delay Dashboard",
-        "description": `Interactive dashboard displays an analysis of Airlines Delay. 
-                        The dashboard presents key metrics such as the number of cancellations, 
-                        and the reason for this. The dashboard also includes filters to allow users 
-                        to focus on specific aspects of the data, such as cancellations by country.`,
+        "description": `Analysis of Airlines Delay. Presents key metrics such as the number of cancellations. 
+                        Also includes filters to focus on specific aspects of the data.`,
         "tool": "Tableau",
         "image": "placeholder.png",
         "date": "Nov 2022",
@@ -44,61 +35,62 @@ const projects = [
         "description": `Interactive dashboard includes info on sales and performance metrics 
                         for a product called XYZ and lets users drill down for deeper insights.`,
         "tool": "Tableau",
-        "image": imgs_root + "xyz.PNG",
+        "image": imgs_root + "xyz_tableau.PNG",
         "date": "Mar 2023",
         "url": "https://public.tableau.com/app/profile/kawther.ahmed/viz/XYZProduct/Dashboard"
     },
     {
         "title": "AdventureWorks Excel Dashboard",
-        "description": `Interactive dashboard using Excel, Started by connecting Excel to an SQL server, 
-                        allowing me to access AdventureWorks data and information. After building the 
-                        relationships between tables, I used pivot tables, slicers, and Excel functions 
-                        to analyze the data and gain valuable insights.`,
+        "description": `Started by connecting Excel to an SQL server, Built relationships between tables then used pivot tables, slicers, and Excel functions 
+                        to analyze the data.`,
         "tool": "Excel",
-        "image": imgs_root + "excel_adventure.png",
+        "image": imgs_root + "excel_adventureWorks.png",
         "date": "June 2023",
         "url": "#"
     },
     {
-        "title": "Kickstarter Dashboard",
-        "description": `Interactive dashboard using Excel, Started by connecting Excel to an SQL server, 
-                        allowing me to access AdventureWorks`,
+        "title": "Kickstarter Projects Dashboard",
+        "description": `Comprehensive overview of Kickstarter projects. Designed using Power Query with the 
+                        ability to create custom columns using M language and append two files.`,
         "tool": "Power BI",
-        "image": imgs_root + "excel_adventure.png",
-        "date": "June 2023",
-        "url": "#"
+        "image": imgs_root + "Kickstarter_powerbi.PNG",
+        "date": "April 2023",
+        "url": "https://www.novypro.com/project/kickstarter-projects-dashboard-power-bi"
     },
     {
-        "title": "AdventureWorks Excel Dashboard",
-        "description": `Interactive dashboard using Excel, Started by connecting Excel to an SQL server, 
-                        allowing me to access AdventureWorks data and information. After building the 
-                        relationships between tables, I used pivot tables, slicers, and Excel functions 
-                        to analyze the data and gain valuable insights.`,
-        "tool": "Excel",
-        "image": imgs_root + "excel_adventure.png",
-        "date": "June 2023",
-        "url": "#"
+        "title": "Sales Dashboard",
+        "description": `Dashboard showcases data using a Star Schema, Hierarchy, 
+                        and DAX Measures. With the ability to drill down and use a Tooltip Page.`,
+        "tool": "Power BI",
+        "image": imgs_root + "sales_powerBI.PNG",
+        "date": "April 2023",
+        "url": "https://www.novypro.com/project/sales-dashboard-power-bi-2"
     },
     {
-        "title": "AdventureWorks Excel Dashboard",
-        "description": `Interactive dashboard using Excel, Started by connecting Excel to an SQL server, 
-                        allowing me to access AdventureWorks data and information. After building the 
-                        relationships between tables, I used pivot tables, slicers, and Excel functions 
-                        to analyze the data and gain valuable insights.`,
-        "tool": "Excel",
-        "image": imgs_root + "excel_adventure.png",
-        "date": "June 2023",
-        "url": "#"
+        "title": "Airlines Delay Dashboard",
+        "description": `Interactive dashboard that incorporates various charts and a Star Schema. 
+                        With the use of measures, date slicers, tooltips, and drill-through functionality.`,
+        "tool": "Power BI",
+        "image": imgs_root + "airline_powerbi.PNG",
+        "date": "May 2023",
+        "url": "https://www.novypro.com/project/airlines-delay-dashboard"
     },
     {
-        "title": "AdventureWorks Excel Dashboard",
-        "description": `Interactive dashboard using Excel, Started by connecting Excel to an SQL server, 
-                        allowing me to access AdventureWorks data and information. After building the 
-                        relationships between tables, I used pivot tables, slicers, and Excel functions 
-                        to analyze the data and gain valuable insights.`,
-        "tool": "Excel",
-        "image": imgs_root + "excel_adventure.png",
-        "date": "June 2023",
-        "url": "#"
+        "title": "Facebook graph API Dashboard",
+        "description": `Extracted Facebook posts data to analyze it using date slicer and matrix. 
+                        You can extract links, view data from the previous month, and see running totals.`,
+        "tool": "Power BI",
+        "image": imgs_root + "facebook_powerbi.PNG",
+        "date": "May 2023",
+        "url": "https://www.novypro.com/project/facebook-graph-api-dashboard"
+    },
+    {
+        "title": "IMDb Top 250 Movies Dashboard",
+        "description": `Leverages a live connection to IMDb's API to showcase the top-rated movies. 
+                        With real-time data updates, movie ratings, genres, and other key metrics.`,
+        "tool": "Power BI",
+        "image": imgs_root + "imdb_powerbi.PNG",
+        "date": "April 2023",
+        "url": "https://www.novypro.com/project/imdb-top-250-movies-dashboard"
     },
 ];
