@@ -1,4 +1,5 @@
 const about = "I am a computer science graduate who is passionate about Data. Currently, I'm a BI trainee at ITI. I'm also a graduate of Data Analysis Professional & Advanced Nanodegrees from Udacity. I have good experience in Python, advanced SQL, and SQL BI with more than 10 projects. I'm well-skilled in data analysis and reporting using Power BI and Tableau.";
+
 const imgs_root = "images/";
 const profile_img = imgs_root + "profile_img.jpeg"
 

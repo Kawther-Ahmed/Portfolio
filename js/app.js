@@ -1,7 +1,7 @@
 // fill about
-document.getElementById("profile_img").src = profile_img;
 document.getElementById("about-txt").innerHTML = about;
 
+document.getElementById("profile_img").src = profile_img;
 
 // fill projects
 projects.forEach(function (row) {
