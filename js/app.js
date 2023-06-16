@@ -14,7 +14,7 @@ projects.forEach(function (row) {
             <div class="card-body">
               <h5 class="card-title">${row.title}</h5>
               <div class="d-flex justify-content-between">
-                <span class="h6 mb-2 text-muted">${row.tool}</span>
+                <span class="h5 mb-2 text-muted">${row.tool}</span>
                 <span class="card-text"><small class="text-muted">${row.date}</small></span>
               </div>
               <p class="card-text">${row.description}</p>
