@@ -35,7 +35,7 @@ const projects = [
         "title": "E-Commerce Dashboard",
         "description": `Interactive visualization includes sales trends, customer demographics, 
                         and product categories. I've used line, bar, and map charts. As well as the use of filters.`,
-                        "tool": "Tableau",
+        "tool": "Tableau",
         "image": imgs_root + "e-commerce_tableau.PNG",
         "date": "May 2023",
         "url": "https://public.tableau.com/app/profile/kawther.ahmed/viz/E-CommerceData_16849528285550/E-CommerceData?publish=yes"
