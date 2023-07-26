@@ -23,6 +23,15 @@ const projects = [
         "url": "https://www.novypro.com/project/airlines-delay-dashboard"
     },
     {
+        "title": "Employees Analysis Report",
+        "description": `Interactive report to gain insights into our employees' data and provide a detailed analysis of our company's workforce.
+                        Used various charts and filter.`,
+        "tool": "Looker Studio",
+        "image": imgs_root + "employees_LS.png",
+        "date": "Jul 2023",
+        "url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
+    },
+    {
         "title": "AdventureWorks DB Dashboard",
         "description": `Worked with Power Query using M Language, and created DAX measures. With drill-through, tooltip page, 
                         bookmark, and inactive relationships.`,
