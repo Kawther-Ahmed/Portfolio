@@ -25,10 +25,10 @@ const projects = [
     {
         "title": "Employees Analysis Report",
         "description": `Interactive report to gain insights into our employees' data and provide a detailed analysis of our company's workforce.
-                        Used various charts and filter.`,
+                        Used various charts and filters.`,
         "tool": "Looker Studio",
         "image": imgs_root + "employees_LS.png",
-        "date": "Jul 2023",
+        "date": "July 2023",
         "url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
     },
     {
