@@ -40,7 +40,7 @@ const projects = [
         "title": "Executive Dashboards",
         "description": `Created a set of individual projects, each focusing on different datasets, 
                         and developed and designed multiple sheets in Qlik Sense to visualize and analyze data. Generated detailed 
-                        insights for each project, tailored to specific executive needs and decision making requirements `,
+                        insights for each project, tailored to specific executive needs and decision making requirements.`,
         "tool": "Qlik Sense",
         "image": imgs_root + "qlik_sense.jpeg",
         "date": "March - June 2024",
@@ -49,7 +49,7 @@ const projects = [
     {
         "title": "All-in-One Data Dashboard",
         "description": `Consolidated multiple individual large-scale projects into a single comprehensive application to provide consistent 
-                        and actionable insights, developed and integrated filters and interactive charts to enhance data exploration and analysis .`,
+                        and actionable insights, developed and integrated filters and interactive charts to enhance data exploration and analysis.`,
         "tool": "Qlik Sense",
         "image": imgs_root + "qlik_sense.jpeg",
         "date": "November 2023 - March 2024",
@@ -59,8 +59,7 @@ const projects = [
         "title": "Country Heads Data",
         "description": `Utilized web scraping techniques to collect data about country heads and key government officials 
                         from Wikipedia using Python libraries. Structured and organized the data to ensure accuracy and consistency. 
-                        c+
-                        lean, well-documented code with comments and functions for clarity`,
+                        Clean, well-documented code with comments and functions for clarity`,
         "tool": "Python",
         "image": imgs_root + "Country_heads.png",
         "date": "July - August 2024",
