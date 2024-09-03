@@ -1,4 +1,8 @@
-const about = "I am a computer science graduate who is passionate about Data. Recently, I graduated from the ITI (BI track). I'm also a graduate of Data Analysis Professional & Advanced Nanodegrees from Udacity through the FWD initiative. I have good experience in Python, advanced SQL, and SQL BI with more than 15 projects. I'm well-skilled in data analysis and reporting using Power BI and Tableau.";
+const about = `As a computer science graduate with a specialization in Business Intelligence from ITI, 
+                with one year of experience working remotely for FCSC (Statistics Centre) in Dubai. 
+                I possess a strong passion for data. I am a Business Intelligence Developer with expertise in Python, 
+                advanced  SQL, SQL BI, Qlik Sense, Power BI, and Tableau. I have many projects in data analysis and visualization, 
+                and I excel at data modeling, scripting, and developing insightful dashboards.`;
 
 const imgs_root = "images/";
 const profile_img = imgs_root + "profile_img.jpeg"
@@ -30,6 +34,37 @@ const projects = [
         "image": imgs_root + "employees_LS.png",
         "date": "July 2023",
         "url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
+    },
+
+    {
+        "title": "Executive Dashboards",
+        "description": `Created a set of individual projects, each focusing on different datasets, 
+                        and developed and designed multiple sheets in Qlik Sense to visualize and analyze data. Generated detailed 
+                        insights for each project, tailored to specific executive needs and decision making requirements `,
+        "tool": "Qlik Sense",
+        "image": imgs_root + "qlik_sense.jpeg",
+        "date": "March - June 2024",
+        //"url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
+    },
+    {
+        "title": "All-in-One Data Dashboard",
+        "description": `Consolidated multiple individual large-scale projects into a single comprehensive application to provide consistent 
+                        and actionable insights, developed and integrated filters and interactive charts to enhance data exploration and analysis .`,
+        "tool": "Qlik Sense",
+        "image": imgs_root + "qlik_sense.jpeg",
+        "date": "November 2023 - March 2024",
+        //"url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
+    },
+    {
+        "title": "Country Heads Data",
+        "description": `Utilized web scraping techniques to collect data about country heads and key government officials 
+                        from Wikipedia using Python libraries. Structured and organized the data to ensure accuracy and consistency. 
+                        c+
+                        lean, well-documented code with comments and functions for clarity`,
+        "tool": "Python",
+        "image": imgs_root + "Country_heads.png",
+        "date": "July - August 2024",
+        "url": "https://github.com/Kawther-Ahmed/get_country_heads_data"
     },
     {
         "title": "AdventureWorks DB Dashboard",
