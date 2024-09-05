@@ -44,7 +44,7 @@ const projects = [
         "tool": "Qlik Sense",
         "image": imgs_root + "qlik_sense.jpeg",
         "date": "March - June 2024",
-        //"url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
+        "url": "#"
     },
     {
         "title": "All-in-One Data Dashboard",
@@ -53,7 +53,7 @@ const projects = [
         "tool": "Qlik Sense",
         "image": imgs_root + "qlik_sense.jpeg",
         "date": "November 2023 - March 2024",
-        //"url": "https://lookerstudio.google.com/u/0/reporting/e09bbb08-4e1c-4fae-8f66-e414f62f5281/page/fE6XD"
+        "url": "#"
     },
     {
         "title": "Country Heads Data",
